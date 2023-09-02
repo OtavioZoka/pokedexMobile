@@ -1,7 +1,7 @@
 import { IPokemonTypeColors } from "../../interfaces/PokemonTypeColor";
 import { ColorGuidePokemonType } from "../../colorsToken/ColorGuidePokemonType";
 
- enum PokeTypeList {
+ enum PokemonTypeNameTokenList {
   COLOR_POKEMON_TYPE_BUG="COLOR_POKEMON_TYPE_BUG",
   COLOR_POKEMON_TYPE_DARK="COLOR_POKEMON_TYPE_DARK",
   COLOR_POKEMON_TYPE_DRAGON="COLOR_POKEMON_TYPE_DRAGON",
@@ -28,81 +28,81 @@ import { ColorGuidePokemonType } from "../../colorsToken/ColorGuidePokemonType";
 }
 
  type IPokeValuesList = {
-  [key in PokeTypeList]: IPokeTypeValues;
+  [key in PokemonTypeNameTokenList]: IPokeTypeValues;
 };
 
 const styleGuide: IPokemonTypeColors = ColorGuidePokemonType;
 
  const PokeTypeColorGuide: IPokeValuesList = {
-  [PokeTypeList.COLOR_POKEMON_TYPE_BUG]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_BUG]: {
     color: styleGuide.PokemonType.Bug.color,
     opacity: styleGuide.PokemonType.Bug.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_DARK]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_DARK]: {
     color: styleGuide.PokemonType.Dark.color,
     opacity: styleGuide.PokemonType.Dark.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_DRAGON]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_DRAGON]: {
     color: styleGuide.PokemonType.Dragon.color,
     opacity: styleGuide.PokemonType.Dragon.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_ELETRICK]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_ELETRICK]: {
     color: styleGuide.PokemonType.Eletrick.color,
     opacity: styleGuide.PokemonType.Eletrick.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_FAIRY]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_FAIRY]: {
     color: styleGuide.PokemonType.Fairy.color,
     opacity: styleGuide.PokemonType.Fairy.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_FIGHTING]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_FIGHTING]: {
     color: styleGuide.PokemonType.Fighting.color,
     opacity: styleGuide.PokemonType.Fighting.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_FIRE]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_FIRE]: {
     color: styleGuide.PokemonType.Fire.color,
     opacity: styleGuide.PokemonType.Fire.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_FLYING]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_FLYING]: {
     color: styleGuide.PokemonType.Flying.color,
     opacity: styleGuide.PokemonType.Flying.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_GHOST]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_GHOST]: {
     color: styleGuide.PokemonType.Ghost.color,
     opacity: styleGuide.PokemonType.Ghost.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_NORMAL]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_NORMAL]: {
     color: styleGuide.PokemonType.Normal.color,
     opacity: styleGuide.PokemonType.Normal.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_GRASS]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_GRASS]: {
     color: styleGuide.PokemonType.Grass.color,
     opacity: styleGuide.PokemonType.Grass.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_GROUND]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_GROUND]: {
     color: styleGuide.PokemonType.Ground.color,
     opacity: styleGuide.PokemonType.Ground.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_ICE]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_ICE]: {
     color: styleGuide.PokemonType.Ice.color,
     opacity: styleGuide.PokemonType.Ice.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_POISON]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_POISON]: {
     color: styleGuide.PokemonType.Poison.color,
     opacity: styleGuide.PokemonType.Poison.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_PSYCHIC]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_PSYCHIC]: {
     color: styleGuide.PokemonType.Psychic.color,
     opacity: styleGuide.PokemonType.Psychic.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_ROCK]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_ROCK]: {
     color: styleGuide.PokemonType.Rock.color,
     opacity: styleGuide.PokemonType.Rock.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_STEAL]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_STEAL]: {
     color: styleGuide.PokemonType.Steal.color,
     opacity: styleGuide.PokemonType.Steal.opacity,
   },
-  [PokeTypeList.COLOR_POKEMON_TYPE_WATER]: {
+  [PokemonTypeNameTokenList.COLOR_POKEMON_TYPE_WATER]: {
     color: styleGuide.PokemonType.Water.color,
     opacity: styleGuide.PokemonType.Water.opacity,
   },

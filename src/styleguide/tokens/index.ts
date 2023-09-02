@@ -1,6 +1,7 @@
 import { TokenColors } from "./colors/token";
+import TypographyGuide from "./typography/token"
 
-const COLOR_TOKEN = { ...TokenColors };
-export default {
-  ...COLOR_TOKEN,
-};
+export const COLOR_TOKEN = { ...TokenColors };
+export const TYPOGRAPHY_TOKEN = { ...TypographyGuide };
+
+

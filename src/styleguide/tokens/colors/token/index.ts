@@ -1,5 +1,5 @@
-import ColorPokedexTokenList from  './PokeColorsTokens/PokedexToken';
-import PokeTypeColorGuide from  './PokeColorsTokens/PokemonTypeToken';
+import ColorPokedexTokenList from  './PokeColorsTokens/PokedexColorToken';
+import PokeTypeColorGuide from  './PokeColorsTokens/PokemonTypeColorToken';
 
 export const TokenColors={
     ...ColorPokedexTokenList,
